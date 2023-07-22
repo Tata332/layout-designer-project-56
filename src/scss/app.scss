@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf")
+}
+
+$black:#3c3b3d;
+$gray:#e0e0e0;
+$dark-gray:#cacaca;
+$dark:#3c3d3d;
+$green:#34c176;
+$orange:#f89202;
+$purple:#5328a1;
+$red:#95390c;
+
+body {
+  font-family:"Roboto";
+  line-height: 1.5;
+  color: $dark-gray;
+  background-color: #08020d;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    font-size: 60px;
+    line-height: 90px;
+  }
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    font-size: 38px;
+    line-height: 57px;
+  }
+}
+
+
+
