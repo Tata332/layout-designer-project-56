@@ -3,7 +3,7 @@
   src: url("../fonts/Roboto-Bold.ttf");
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: #cacaca;
   background-color: #08020d;
@@ -33,6 +33,12 @@ h2 {
     font-size: 38px;
     line-height: 57px;
   }
+}
+
+.icon {
+  background-image: url("../images/logo.svg");
+  width: 25px;
+  height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

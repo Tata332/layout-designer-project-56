@@ -3,7 +3,7 @@
   src: url("../fonts/Roboto-Bold.ttf")
 }
 
-$black:#3c3b3d;
+$black:#08020d;
 $gray:#e0e0e0;
 $dark-gray:#cacaca;
 $dark:#3c3d3d;
@@ -13,10 +13,10 @@ $purple:#5328a1;
 $red:#95390c;
 
 body {
-  font-family:"Roboto";
+  font-family:"Roboto", sans-serif;
   line-height: 1.5;
   color: $dark-gray;
-  background-color: #08020d;
+  background-color: $black;
 }
 
 h1 {
@@ -39,6 +39,12 @@ h2 {
     font-size: 38px;
     line-height: 57px;
   }
+}
+
+.icon {
+  background-image: url("../images/logo.svg");
+  width: 25px;
+  height: 25px;
 }
 
 
