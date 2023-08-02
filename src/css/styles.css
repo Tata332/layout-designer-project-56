@@ -1,23 +1,12 @@
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.ttf")
+  src: url("../fonts/Roboto-Bold.ttf");
 }
-
-$black:#08020d;
-$gray:#e0e0e0;
-$dark-gray:#cacaca;
-$dark:#3c3d3d;
-$green:#34c176;
-$orange:#f89202;
-$purple:#5328a1;
-$red:#95390c;
-$white:#ffff;
-
 body {
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  color: $dark-gray;
-  background-color: $black;
+  color: #cacaca;
+  background-color: #08020d;
   margin: 0;
 }
 
@@ -27,7 +16,9 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  @media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
+  h1 {
     font-size: 60px;
     line-height: 90px;
   }
@@ -39,7 +30,9 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  @media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
+  h2 {
     font-size: 38px;
     line-height: 57px;
   }
@@ -52,26 +45,21 @@ header {
   margin-left: 30px;
   column-gap: 10px;
   row-gap: 17px;
-  @media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
+  header {
     left: 100px;
     right: 100px;
   }
 }
 
-
-@mixin image($name) {
-  background-image: url("../images/#{$name}");
+.icon {
+  background-image: url("../images/logo.svg");
   background-position: center;
   background-size: cover;
-}
-
-.icon {
-  @include image("logo.svg");
-
   width: 25px;
   height: 25px;
 }
-
 
 .mg-0 {
   margin: 0;
@@ -86,7 +74,7 @@ header {
 }
 
 .color-w {
-  color: $white;
+  color: white;
 }
 
 .menu-header {
@@ -95,13 +83,12 @@ header {
 }
 
 .search {
-  background-color: $dark;
+  background-color: #3c3d3d;
   border: none;
   border-radius: 13px;
-
   width: 248px;
   height: 25px;
-  padding-left: 10px ;
+  padding-left: 10px;
 }
 
 input::placeholder {
@@ -110,4 +97,4 @@ input::placeholder {
   font-weight: 400;
 }
 
-
+/*# sourceMappingURL=styles.css.map */

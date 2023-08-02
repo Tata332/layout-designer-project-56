@@ -7,4 +7,4 @@ lint:
 	npx htmlhint ./src/*.html
 
 scss:
-	npx sass src/scss/app.scss src/css/style.css
+	npx sass src/scss/app.scss src/css/styles.css
