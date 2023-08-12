@@ -38,18 +38,21 @@ h2 {
   }
 }
 
-header {
+.m-0 {
+  margin: 0;
+}
+
+.header {
   position: absolute;
   display: flex;
   padding-top: 25px;
-  margin-left: 30px;
-  column-gap: 10px;
-  row-gap: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media screen and (min-width: 1200px) {
-  header {
-    left: 100px;
-    right: 100px;
+  .header {
+    padding-left: 119px;
+    padding-right: 119px;
   }
 }
 
@@ -57,29 +60,33 @@ header {
   background-image: url("../images/logo.svg");
   background-position: center;
   background-size: cover;
-  width: 25px;
-  height: 25px;
-}
-
-.mg-0 {
-  margin: 0;
-}
-
-.mg-30 {
-  margin-right: 90px;
-}
-
-.mg-50 {
-  margin-right: 300px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
 
 .color-w {
   color: white;
 }
 
-.menu-header {
+.p {
+  font-size: 11px;
+}
+
+.logo {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
   column-gap: 30px;
+  margin-right: 458px;
 }
 
 .search {
@@ -95,6 +102,66 @@ input::placeholder {
   font-size: 13.3px;
   line-height: 15.29px;
   font-weight: 400;
+}
+
+.page-description {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .page-description {
+    padding-left: 119px;
+    padding-right: 119px;
+  }
+}
+
+.m-10 {
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  margin-left: 434px;
+  margin-top: -180px;
+  max-width: 570px;
+}
+
+.name {
+  width: 273px;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.email {
+  width: 273px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: transparent;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+}
+
+.button {
+  width: 570px;
+  height: 57px;
+  margin-top: 25px;
+  background-color: #34c176;
+  border-radius: 5px;
+  border: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
