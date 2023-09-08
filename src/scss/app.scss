@@ -27,6 +27,11 @@ body {
   background-size: cover;
 }
 
+@mixin not-center($name) {
+  background-image: url("../images/#{$name}");
+  background-size: cover;
+}
+
 h1 {
   font-size: 30px;
   line-height: 45px;
@@ -172,3 +177,188 @@ input::placeholder {
   border: 0;
 }
 
+.page-pricing {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @media screen and (min-width: 1200px) {
+    padding-left: 119px;
+    padding-right: 119px;
+  }
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 50px ;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  column-gap: 47px;
+  row-gap: 50px;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
+
+.pricing-item {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+}
+
+.bg-free {
+  @include not-center("subscribe_1.png")
+}
+
+.bg-standard {
+  @include not-center("subscribe_2.png")
+}
+
+
+.bg-premium {
+  @include not-center("subscribe_3.png")
+}
+
+.pricing-value  {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 32px;
+  line-height: 48px;
+  color: $white;
+  column-gap: 16px;
+
+}
+
+.subscription {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.number {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.btn {
+  width: 318.66px;
+  height: 66px;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+.pricing-footer {
+  font-size: 12.8px;
+  padding-top: 66px;
+  margin-bottom: 60px;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.page-news {
+  padding-top: 100px;
+  @media screen and (min-width: 1200px) {
+    padding-left: 119px;
+    padding-right: 119px;
+  }
+}
+
+.news-item {
+  display: flex;
+  column-gap: 50px;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
+
+.news-footer {
+  margin-top: 25px;
+}
+
+.news-author {
+  display: flex;
+
+  margin-bottom: 48px;
+  column-gap: 16px;
+}
+
+.avatar {
+  @include image("avatar.png");
+
+  width: 19px;
+  height: 19px;
+}
+
+.color-or {
+  color: $orange;
+  text-transform: uppercase;
+}
+
+.album {
+  width: 135px;
+  height: 53px;
+  border-radius: 5px;
+  color: #CACACA;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #CACACA;
+}
+
+.ordinary {
+  padding-top: 70px;
+  flex-direction: row-reverse;
+}
+
+.page-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  @media screen and (min-width: 1200px) {
+    padding-left: 119px;
+    padding-right: 119px;
+  }
+}
+
+.advertising {
+  display: flex;
+  column-gap: 50px;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
+    justify-content: space-between
+  }
+}
+
+.advertising-text {
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+}
+
+.download {
+  border-radius: 32px;
+  width: 131px;
+  height: 53px;
+  background-color: $red;
+  font-size: 12.8px;
+  padding: 16px 40px 16px 40px;
+  border: none;
+}
