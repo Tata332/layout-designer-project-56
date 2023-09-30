@@ -145,7 +145,7 @@ input::placeholder {
 @media screen and (min-width: 1200px) {
   .des {
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     align-items: center;
     padding: 0;
   }
