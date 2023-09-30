@@ -686,7 +686,11 @@ h5 {
 }
 
 .discography-info {
+  margin-top: 15px;
+  display: flex;
   margin-top: 17px;
+  row-gap: 5px;
+  flex-direction: column;
 }
 
 .h18px {
