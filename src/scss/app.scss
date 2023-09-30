@@ -647,9 +647,10 @@ h5 {
 }
 
 .discography-info {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  @media screen and (min-width: 1200px){
+    margin-top: 15px;
+  }
 }
 
 .h18px {
