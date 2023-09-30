@@ -654,11 +654,10 @@ h5 {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .page-discography {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     width: 1200px;
   }
 }
