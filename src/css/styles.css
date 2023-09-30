@@ -614,13 +614,13 @@ h5 {
   grid-template-rows: repeat(6, max-content);
   grid-template-columns: 1fr;
   padding-top: 50px;
+  column-gap: 55px;
+  row-gap: 25px;
 }
 @media screen and (min-width: 1200px) {
   .songs {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 55px;
-    row-gap: 25px;
   }
 }
 
@@ -668,10 +668,72 @@ h5 {
 .discography {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 250px);
+  grid-template-columns: repeat(2, 137px);
   padding-top: 50px;
   column-gap: 50px;
   row-gap: 25px;
+}
+@media screen and (min-width: 1200px) {
+  .discography {
+    justify-content: space-between;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 250px);
+  }
+}
+
+.discography-item img {
+  width: 137px;
+  height: 137px;
+}
+@media screen and (min-width: 1200px) {
+  .discography-item img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .page-similar {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+.similar {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 137px);
+  padding-top: 50px;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+@media screen and (min-width: 1200px) {
+  .similar {
+    justify-content: space-between;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 250px);
+  }
+}
+
+.similar-item img {
+  width: 137px;
+  height: 137px;
+}
+@media screen and (min-width: 1200px) {
+  .similar-item img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.similar-info {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
