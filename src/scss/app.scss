@@ -445,7 +445,6 @@ h5 {
 
 .padingt-rem {
   padding-top: 3rem;
-  padding-bottom: 2rem;
 }
 
 .h2 {
@@ -644,7 +643,7 @@ p {
   column-gap: 50px;
   row-gap: 25px;
   @media screen and (min-width: 1200px){
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(2, min-content);;
     grid-template-columns: repeat(4, 250px);
     }
 }
