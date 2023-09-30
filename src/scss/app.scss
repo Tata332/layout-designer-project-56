@@ -650,7 +650,6 @@ h5 {
 .discography-info {
   margin-top: 15px;
   display: flex;
-  row-gap: 10px;
   flex-direction: column;
 }
 
@@ -659,6 +658,11 @@ h5 {
   font-weight: bold;
   margin: 0;
   line-height: 19.2px;
+}
+
+.p {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .page-similar {
