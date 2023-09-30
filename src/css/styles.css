@@ -532,7 +532,7 @@ h5 {
   padding-right: 20px;
   margin: 0;
   padding-top: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
@@ -601,8 +601,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-popular-track {
-    padding-left: 120px;
-    padding-right: 120px;
+    width: 1200px;
   }
 }
 
@@ -657,7 +656,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-discography {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     width: 1200px;
   }
 }
@@ -695,7 +694,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-similar {
-    padding-left: 120px;
+    width: 1200px;
   }
 }
 
