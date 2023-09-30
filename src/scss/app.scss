@@ -699,7 +699,7 @@ p {
   row-gap: 25px;
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
-    grid-template-rows: (2, min-content);
+    grid-template-rows: repeat(2, min-content);
     grid-template-columns: repeat(4, 250px);
   }
 }
