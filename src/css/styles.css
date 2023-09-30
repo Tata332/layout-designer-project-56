@@ -546,17 +546,18 @@ p {
 }
 
 .description-artist {
-  padding-top: 49PX;
+  padding-top: 49px;
 }
 
 .mix-favorite {
   display: flex;
   row-gap: 30px;
-  padding-top: 49px;
+  padding-top: 39px;
   flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
   .mix-favorite {
+    padding-top: 49px;
     column-gap: 24px;
     flex-direction: row;
   }
