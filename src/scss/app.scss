@@ -631,7 +631,6 @@ h5 {
   column-gap: 50px;
   row-gap: 25px;
   @media screen and (min-width: 1200px){
-    justify-content: space-between;
     grid-template-rows: repeat(2, 1fr);;
     grid-template-columns: repeat(4, 250px);
     }
@@ -647,6 +646,10 @@ h5 {
     }
   }
 
+}
+
+.discography-info {
+  margin-top: 15px;
 }
 
 .page-similar {

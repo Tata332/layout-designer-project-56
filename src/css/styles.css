@@ -670,7 +670,6 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .discography {
-    justify-content: space-between;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 250px);
   }
@@ -685,6 +684,10 @@ h5 {
     width: 250px;
     height: 250px;
   }
+}
+
+.discography-info {
+  margin-top: 15px;
 }
 
 .page-similar {
