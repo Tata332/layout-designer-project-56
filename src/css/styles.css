@@ -544,6 +544,11 @@ h5 {
   padding-top: 40px;
 }
 
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .mix-favorite {
   display: flex;
   row-gap: 30px;
