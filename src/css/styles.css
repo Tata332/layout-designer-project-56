@@ -657,7 +657,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-discography {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     width: 1200px;
   }
 }
@@ -668,7 +668,6 @@ h5 {
   grid-template-columns: repeat(2, 137px);
   padding-top: 50px;
   column-gap: 50px;
-  row-gap: 25px;
 }
 @media screen and (min-width: 1200px) {
   .discography {
