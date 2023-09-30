@@ -728,14 +728,13 @@ p {
 @media screen and (min-width: 1200px) {
   .page-similar {
     width: 1200px;
-    padding-left: 120px;
   }
 }
 
 .similar {
   display: grid;
-  grid-template-rows: minmax(0, min-content);
-  grid-template-columns: repeat(2, 137px);
+  grid-template-columns: repeat(2, 138px);
+  grid-template-rows: repeat(3, minmax(0, max-content));
   padding-top: 50px;
   column-gap: 50px;
   row-gap: 25px;
@@ -743,7 +742,7 @@ p {
 @media screen and (min-width: 1200px) {
   .similar {
     justify-content: space-between;
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(2, minmax(0, max-content));
     grid-template-columns: repeat(4, 250px);
   }
 }
