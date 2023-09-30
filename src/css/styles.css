@@ -660,7 +660,7 @@ h5 {
 
 .discography {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: minmax(0, min-content);
   grid-template-columns: repeat(2, 138px);
   padding-top: 50px;
   column-gap: 50px;
@@ -668,7 +668,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .discography {
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
     grid-template-columns: repeat(4, 250px);
   }
 }
@@ -685,7 +685,7 @@ h5 {
 }
 
 .discography-info {
-  margin-top: 10px;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 1200px) {
   .discography-info {
