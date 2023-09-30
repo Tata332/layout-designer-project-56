@@ -661,7 +661,7 @@ h5 {
 .discography {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 137px);
+  grid-template-columns: repeat(2, 138px);
   padding-top: 50px;
   column-gap: 50px;
   row-gap: 25px;
