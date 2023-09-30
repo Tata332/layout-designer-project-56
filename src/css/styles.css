@@ -735,7 +735,7 @@ p {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 137px);
-  padding-top: 40px;
+  padding-top: 55px;
   column-gap: 50px;
   row-gap: 25px;
 }
