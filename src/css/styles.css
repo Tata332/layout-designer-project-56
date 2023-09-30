@@ -685,12 +685,7 @@ h5 {
 }
 
 .discography-info {
-  margin-bottom: 0;
-}
-@media screen and (min-width: 1200px) {
-  .discography-info {
-    margin-top: 15px;
-  }
+  margin-top: 15px;
 }
 
 .h18px {
