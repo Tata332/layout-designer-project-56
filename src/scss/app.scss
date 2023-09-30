@@ -619,7 +619,9 @@ h5 {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 50px;
   @media screen and (min-width: 1200px){
+    padding-bottom: 10px;
     width: 1200px;
   }
 }
