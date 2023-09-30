@@ -657,7 +657,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-discography {
-    padding-left: 120px;
+    width: 1200px;
   }
 }
 
