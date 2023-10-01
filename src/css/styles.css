@@ -722,6 +722,7 @@ p {
 .page-similar {
   padding-top: 100px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 @media screen and (min-width: 1200px) {
   .page-similar {
@@ -731,7 +732,7 @@ p {
 
 .similar {
   display: grid;
-  grid-template-rows: minmax(0, min-content);
+  grid-template-rows: repeat(3, minmax(0, max-content));
   grid-template-columns: repeat(2, 137px);
   padding-top: 50px;
   column-gap: 50px;
@@ -740,7 +741,7 @@ p {
 @media screen and (min-width: 1200px) {
   .similar {
     justify-content: space-between;
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(2, minmax(0, max-content));
     grid-template-columns: repeat(4, 250px);
   }
 }
