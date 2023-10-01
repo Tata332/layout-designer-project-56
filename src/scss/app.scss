@@ -427,10 +427,9 @@ h5 {
 
 .footer {
   display: grid;
+  padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 3rem;
-  padding-bottom: 75px;
   grid-template-rows: repeat(5, max-content);
   grid-template-columns: 1fr;
   @media screen and (min-width: 1200px) {
@@ -438,9 +437,13 @@ h5 {
     padding-right: 120px;
     justify-content: space-between;
     column-gap: 30px;
-    grid-template-rows: repeat(2, max-content);
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, max-content);
   }
+}
+
+.padingt-rem {
+  padding-top: 2rem;
 }
 
 .h2 {
@@ -484,11 +487,10 @@ h5 {
   flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 34px;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  line-height: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   column-gap: 16px;
+  row-gap: 20px;
   @media screen and (min-width: 1200px) {
     flex-direction: row;
     padding-left: 120px;
@@ -707,7 +709,7 @@ p {
     height: 137px;
     @media screen and (min-width: 1200px) {
       width: 250px;
-      height: 250px;
+      height: 20px;
     }
   }
 }
