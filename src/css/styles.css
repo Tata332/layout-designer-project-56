@@ -462,7 +462,7 @@ h5 {
 
 .advertising-text {
   display: flex;
-  row-gap: 20px;
+  row-gap: 17px;
   padding-top: 18px;
   flex-direction: column;
 }
