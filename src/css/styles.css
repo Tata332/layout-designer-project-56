@@ -390,10 +390,11 @@ h5 {
 }
 
 .ordinary {
-  padding-top: 68px;
+  padding-top: 75px;
 }
 @media screen and (min-width: 1200px) {
   .ordinary {
+    padding-top: 68px;
     flex-direction: row-reverse;
   }
 }
