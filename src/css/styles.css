@@ -135,7 +135,7 @@ input::placeholder {
 
 .des {
   display: flex;
-  padding-top: 248px;
+  padding-top: 200px;
   padding-bottom: 200px;
   padding-left: 20px;
   padding-right: 20px;
@@ -444,7 +444,7 @@ h5 {
 
 .footer {
   display: grid;
-  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
   grid-template-rows: repeat(5, max-content);
