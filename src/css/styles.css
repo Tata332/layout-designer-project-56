@@ -733,7 +733,7 @@ p {
 .similar {
   display: grid;
   grid-template-rows: repeat(3, minmax(0, max-content));
-  grid-template-columns: repeat(2, 137px);
+  grid-template-columns: repeat(2, 139px);
   padding-top: 50px;
   column-gap: 50px;
   row-gap: 25px;
@@ -752,8 +752,8 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .similar-item img {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
   }
 }
 
