@@ -142,7 +142,7 @@ input::placeholder {
   justify-content: center;
 }
 
-.des {
+.descrip {
   display: flex;
   padding-top: 190px;
   padding-bottom: 200px;
@@ -156,6 +156,10 @@ input::placeholder {
     align-items: center;
     padding: 0;
   }
+}
+
+.dec {
+  padding-top: 50px;
 }
 
 .m-10 {

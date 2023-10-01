@@ -133,7 +133,7 @@ input::placeholder {
   justify-content: center;
 }
 
-.des {
+.descrip {
   display: flex;
   padding-top: 190px;
   padding-bottom: 200px;
@@ -143,12 +143,16 @@ input::placeholder {
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  .des {
+  .descrip {
     margin-top: 200px;
     margin-bottom: 150px;
     align-items: center;
     padding: 0;
   }
+}
+
+.dec {
+  padding-top: 50px;
 }
 
 .m-10 {
