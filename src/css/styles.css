@@ -165,6 +165,11 @@ input::placeholder {
 .m-30 {
   margin-bottom: 25px;
 }
+@media screen and (min-width: 1200px) {
+  .m-30 {
+    margin-bottom: 30px;
+  }
+}
 
 .m-10 {
   margin-bottom: 16px;
