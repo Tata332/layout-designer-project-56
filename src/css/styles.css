@@ -151,6 +151,16 @@ input::placeholder {
   }
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .content {
+    align-items: center;
+  }
+}
+
 .m-10 {
   margin-bottom: 20px;
 }
@@ -231,8 +241,7 @@ input::placeholder {
 }
 @media screen and (min-width: 1200px) {
   .page-pricing {
-    padding-left: 120px;
-    padding-right: 120px;
+    width: 1200px;
   }
 }
 
