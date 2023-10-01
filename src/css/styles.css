@@ -152,7 +152,7 @@ input::placeholder {
 }
 
 .m-10 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .form {
@@ -231,7 +231,8 @@ input::placeholder {
 }
 @media screen and (min-width: 1200px) {
   .page-pricing {
-    width: 1200px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 

@@ -159,7 +159,7 @@ input::placeholder {
 }
 
 .m-10 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .form {
@@ -226,7 +226,8 @@ input::placeholder {
   padding-left: 20px;
   padding-right: 20px;
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    padding-left: 120px;
+    padding-right: 120px;;
   }
 }
 
@@ -350,6 +351,10 @@ h5 {
 
 .news-footer {
   margin-top: 25px;
+}
+
+.news-body {
+
 }
 
 .news-author {
