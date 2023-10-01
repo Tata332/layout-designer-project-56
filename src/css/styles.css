@@ -166,7 +166,7 @@ input::placeholder {
 }
 
 .m-10 {
-  margin-bottom: 11px;
+  margin-bottom: 13px;
 }
 @media screen and (min-width: 1200px) {
   .m-10 {
@@ -376,11 +376,11 @@ h5 {
 }
 
 .news-body {
-  margin-top: 45px;
+  padding-top: 45px;
 }
 @media screen and (min-width: 1200px) {
   .news-body {
-    margin: 0;
+    padding: 0;
   }
 }
 

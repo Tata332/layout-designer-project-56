@@ -172,7 +172,7 @@ input::placeholder {
 }
 
 .m-10 {
-  margin-bottom: 11px;
+  margin-bottom: 13px;
   @media screen and (min-width: 1200px) {
     margin-bottom: 30px;
   }
@@ -359,9 +359,9 @@ h5 {
 }
 
 .news-body {
-  margin-top: 45px;
+  padding-top: 45px;
   @media screen and (min-width: 1200px) {
-    margin: 0;
+    padding: 0;
   }
 }
 
