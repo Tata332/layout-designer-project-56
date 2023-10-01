@@ -416,9 +416,8 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .advertising {
-    justify-content: space-between;
+    column-gap: 155px;
     flex-direction: row;
-    align-items: flex-start;
   }
 }
 
