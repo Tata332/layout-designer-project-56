@@ -427,29 +427,28 @@ h5 {
   }
 }
 
-.mobil {
-  img {
-    width: 333px;
-    height: 278px;
-  }
-}
-
 .advertising {
   display: flex;
-  flex-direction: column-reverse;
+
+  flex-direction: column;
   align-items: center;
+  column-gap: 144px;
+
   @media screen and (min-width: 1200px) {
-    column-gap: 155px;
-    align-items: stretch;
     flex-direction: row;
+    align-items: flex-start;
   }
 }
 
 .advertising-text {
   display: flex;
-  row-gap: 16px;
-  padding-top: 10px;
   flex-direction: column;
+  order: 1;
+  row-gap: 16px;
+  @media screen and (min-width: 1200px) {
+    order: 0;
+    max-width: 600px;
+  }
 }
 
 .download {
