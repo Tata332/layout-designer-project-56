@@ -231,7 +231,7 @@ input::placeholder {
 }
 @media screen and (min-width: 1200px) {
   .page-pricing {
-    padding-left: 120px;
+    width: 1200px;
   }
 }
 
@@ -341,7 +341,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-news {
-    padding-left: 120px;
+    width: 1200px;
   }
 }
 
@@ -405,7 +405,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-app {
-    padding-left: 120px;
+    width: 1200px;
   }
 }
 
