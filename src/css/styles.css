@@ -256,7 +256,7 @@ input::placeholder {
 
 .center {
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 h3 {
