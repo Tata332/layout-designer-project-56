@@ -426,9 +426,17 @@ h5 {
   }
 }
 
+.mobil {
+  img {
+    width: 333px;
+    height: 278px;
+  }
+}
+
 .advertising {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
   @media screen and (min-width: 1200px) {
     column-gap: 155px;
     flex-direction: row;
