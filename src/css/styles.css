@@ -445,6 +445,7 @@ h5 {
 }
 @media screen and (min-width: 1200px) {
   .page-app {
+    padding-top: 50px;
     width: 1200px;
   }
 }
