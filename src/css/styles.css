@@ -464,6 +464,7 @@ h5 {
 @media screen and (min-width: 1200px) {
   .advertising {
     column-gap: 155px;
+    align-items: stretch;
     flex-direction: row;
   }
 }
