@@ -209,7 +209,7 @@ input::placeholder {
 }
 
 .name {
-  width: 100%;
+  width: 374px;
   height: 50px;
   box-sizing: border-box;
   padding-left: 20px;
@@ -224,7 +224,7 @@ input::placeholder {
 }
 
 .email {
-  width: 100%;
+  width: 374px;
   height: 50px;
   box-sizing: border-box;
   padding-left: 20px;
