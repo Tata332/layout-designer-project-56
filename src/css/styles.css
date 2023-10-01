@@ -751,8 +751,8 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .similar-item img {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
   }
 }
 
