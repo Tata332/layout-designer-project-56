@@ -698,6 +698,7 @@ p {
   row-gap: 25px;
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
+    padding-top: 40px;
     grid-template-rows: repeat(2, minmax(0, max-content));
     grid-template-columns: repeat(4, 250px);
   }
