@@ -198,6 +198,8 @@ input::placeholder {
 }
 .form input::placeholder {
   color: white;
+  font-size: 14px;
+  line-height: 16.41px;
 }
 
 .form-search {
@@ -240,7 +242,7 @@ input::placeholder {
 }
 
 .button {
-  width: 374px;
+  width: 100px;
   height: 57px;
   padding: 20px 30px;
   background-color: #34c176;

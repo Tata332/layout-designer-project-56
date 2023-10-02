@@ -198,6 +198,8 @@ input::placeholder {
   }
   input::placeholder {
     color: #ffff;
+    font-size: 14px;
+    line-height: 16.41px;
   }
 }
 
@@ -235,7 +237,7 @@ input::placeholder {
 }
 
 .button {
-  width: 374px;
+  width: 100px;
   height: 57px;
   padding: 20px 30px;
   background-color: $green;
