@@ -196,10 +196,30 @@ input::placeholder {
     column-gap: 24px;
   }
 }
-.form input::placeholder {
+.form input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
   color: white;
   font-size: 14px;
-  line-height: 16.41px;
+  background-color: transparent;
+  border: 2px solid #e0e0e0;
+  border-radius: 3px;
+}
+@media screen and (min-width: 1200px) {
+  .form input {
+    width: auto;
+  }
+}
+.form input::placeholder {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
 }
 
 .form-search {
@@ -211,48 +231,19 @@ input::placeholder {
   }
 }
 
-.name {
-  width: 100%;
-  height: 50px;
-  box-sizing: border-box;
-  padding-left: 20px;
-  border: 2px solid #cacaca;
-  border-radius: 3px;
-  background-color: transparent;
-}
-@media screen and (min-width: 1200px) {
-  .name {
-    width: 273px;
-  }
-}
-
-.email {
-  width: 100%;
-  height: 50px;
-  box-sizing: border-box;
-  padding-left: 20px;
-  background-color: transparent;
-  border: 2px solid #cacaca;
-  border-radius: 3px;
-}
-@media screen and (min-width: 1200px) {
-  .email {
-    width: 273px;
-  }
-}
-
 .button {
   width: 100%;
   height: 57px;
   padding: 20px 30px;
+  color: white;
+  font-size: 13.3px;
+  font-family: Arial, sans-serif;
+  line-height: 15.29px;
+  text-align: center;
+  text-transform: uppercase;
   background-color: #34c176;
+  border: none;
   border-radius: 5px;
-  border: 0;
-}
-@media screen and (min-width: 1200px) {
-  .button {
-    width: 100%;
-  }
 }
 
 .page-pricing {
