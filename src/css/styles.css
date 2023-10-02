@@ -201,7 +201,7 @@ input::placeholder {
 }
 
 .form-search {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 @media screen and (min-width: 1200px) {
   .form-search {
