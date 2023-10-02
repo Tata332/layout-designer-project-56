@@ -189,7 +189,7 @@ input::placeholder {
   row-gap: 24px;
   max-width: 570px;
   padding-top: 15px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.7rem;
   flex-direction: column;
   @media screen and (min-width: 1200px) {
     flex-direction: row;
@@ -244,9 +244,7 @@ button {
   background-color: $green;
   border-radius: 5px;
   border: 0;
-  line-height: 15.29px;
   border: none;
-  font-size: 13.3px;
   @media screen and (min-width: 1200px) {
     width: 100%;
   }
