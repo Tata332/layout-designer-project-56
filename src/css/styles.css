@@ -186,7 +186,7 @@ input::placeholder {
   row-gap: 24px;
   max-width: 570px;
   padding-top: 15px;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
