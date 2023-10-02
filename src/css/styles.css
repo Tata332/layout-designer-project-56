@@ -185,7 +185,7 @@ input::placeholder {
   flex-wrap: wrap;
   row-gap: 24px;
   max-width: 570px;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 10px 20px;
   margin-bottom: 1.5rem;
   flex-direction: column;
 }
