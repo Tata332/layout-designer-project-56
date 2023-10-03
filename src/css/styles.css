@@ -301,7 +301,7 @@ h5 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 24px;
   line-height: 36px;
   font-weight: 400;
   margin: 0;
@@ -320,8 +320,8 @@ h4 {
 }
 
 .pricing-item {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 1rem;
 }
 
@@ -353,7 +353,6 @@ h4 {
 
 .subscription {
   margin-top: 24px;
-  margin-bottom: 24px;
   text-align: center;
 }
 
