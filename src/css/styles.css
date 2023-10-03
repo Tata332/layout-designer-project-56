@@ -540,7 +540,7 @@ h4 {
 .footer {
   display: grid;
   padding-bottom: 52px;
-  padding-top: 60px;
+  padding-top: 63px;
   padding-left: 20px;
   padding-right: 20px;
   grid-template-rows: repeat(5, max-content);
@@ -552,6 +552,7 @@ h4 {
     padding-left: 120px;
     padding-right: 120px;
     padding-bottom: 45px;
+    padding-top: 60px;
     column-gap: 30px;
     justify-content: space-between;
     grid-template-columns: repeat(4, 1fr);
