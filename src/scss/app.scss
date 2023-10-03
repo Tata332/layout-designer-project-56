@@ -508,16 +508,16 @@ h4 {
 .footer {
   display: grid;
   padding-bottom: 70px;
-  padding-top: 50px;
+  padding-top: 55px;
   padding-left: 20px;
   padding-right: 20px;
   grid-template-rows: repeat(5, max-content);
   grid-template-columns: 1fr;
+  column-gap: 30px;
   @media screen and (min-width: 1200px) {
     padding-left: 120px;
     padding-right: 120px;
     justify-content: space-between;
-    column-gap: 30px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, max-content);
   }
