@@ -341,8 +341,12 @@ h4 {
 }
 
 .subscription {
-  margin-top: 24px;
+  margin-top: 16px;
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    margin-top: 24px;
+  }
+
 }
 
 .number {
