@@ -601,8 +601,8 @@ h4 {
   flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 50px;
   column-gap: 16px;
   row-gap: 20px;
 }
