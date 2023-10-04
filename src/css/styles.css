@@ -379,7 +379,7 @@ h4 {
   border-radius: 5px;
   text-transform: uppercase;
   background-color: transparent;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #FFF;
 }
 @media screen and (min-width: 1200px) {
   .btn {
@@ -526,7 +526,7 @@ h4 {
   height: 53px;
   background-color: #95390c;
   font-size: 12.8px;
-  padding: 16px 40px 16px 40px;
+  padding: 16px 40px 16px;
   border: none;
 }
 
@@ -536,20 +536,14 @@ h4 {
 
 .footer {
   display: grid;
-  padding-bottom: 52px;
-  padding-top: 63px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 63px 20px 52px;
   grid-template-rows: repeat(5, max-content);
   grid-template-columns: 1fr;
   row-gap: 30px;
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-bottom: 45px;
-    padding-top: 60px;
+    padding: 60px 120px 45px;
     column-gap: 30px;
     justify-content: space-between;
     grid-template-columns: repeat(4, 1fr);
@@ -590,7 +584,7 @@ h4 {
 }
 
 .line {
-  width: 100x;
+  width: 100%;
   background-color: #CACACA;
   border: 1px solid #CACACA;
 }
@@ -598,10 +592,7 @@ h4 {
 .low-menu {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding: 40px 20px 50px;
   column-gap: 16px;
   row-gap: 16px;
 }
