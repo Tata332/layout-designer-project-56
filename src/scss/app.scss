@@ -199,7 +199,7 @@ input::placeholder {
   padding-top: 15px;
   margin-bottom: 3.5rem;
 
-  flex-direction: column;
+  flex-flow: column;
 
   @media screen and (min-width: 1200px) {
 
@@ -526,7 +526,7 @@ h4 {
   height: 53px;
   background-color: $red;
   font-size: 12.8px;
-  padding: 16px 40px 16px;
+  padding: 16px 40px;
   border: none;
 }
 

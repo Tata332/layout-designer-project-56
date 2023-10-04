@@ -184,7 +184,7 @@ input::placeholder {
   max-width: 570px;
   padding-top: 15px;
   margin-bottom: 3.5rem;
-  flex-direction: column;
+  flex-flow: column;
 }
 @media screen and (min-width: 1200px) {
   .form {
@@ -526,7 +526,7 @@ h4 {
   height: 53px;
   background-color: #95390c;
   font-size: 12.8px;
-  padding: 16px 40px 16px;
+  padding: 16px 40px;
   border: none;
 }
 
