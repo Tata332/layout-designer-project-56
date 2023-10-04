@@ -184,7 +184,7 @@ input::placeholder {
   max-width: 570px;
   padding-top: 15px;
   margin-bottom: 3.5rem;
-  flex-flow: column;
+  flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
   .form {
