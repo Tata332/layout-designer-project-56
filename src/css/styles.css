@@ -12,16 +12,16 @@ body {
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0;
+  font-size: 60px;
+  line-height: 90px;
 }
 @media screen and (max-width: 1200px) {
   h1 {
-    font-size: 60px;
-    line-height: 90px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
   }
 }
 
