@@ -1,0 +1,72 @@
+@use 'base';
+
+.page-description-artist {
+  @include base.image("Morten Harket.png");
+  display: flex;
+  margin: 0;
+  padding-top: 200px;
+  padding-bottom: 223px;
+  padding-left: 20px;
+  flex-direction: column;
+
+  @media screen and (width >= 1200px) {
+    padding-left: 120px;
+  }
+}
+
+.description-artist {
+  padding-top: 35px;
+
+  @media screen and (width >= 1200px) {
+    padding-top: 49px;
+  }
+}
+
+.mix-favorite {
+  display: flex;
+  row-gap: 30px;
+  padding-top: 30px;
+  flex-direction: column;
+
+  @media screen and (width >= 1200px) {
+    padding-top: 49px;
+    column-gap: 24px;
+    flex-direction: row;
+  }
+}
+
+.btn-artist {
+  display: flex;
+  column-gap: 15px;
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  line-height: 1.5rem;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.play-button {
+  @include base.image("play-button.svg");
+  display: block;
+  width: 20px;
+  height: 20px;
+  filter: invert(2);
+}
+
+.heart {
+  @include base.image("heart.svg");
+  display: block;
+  width: 20px;
+  height: 20px;
+  filter: invert(2);
+}
+
+.purple {
+  background-color: #5328A1;
+}
+
+.red {
+  background-color: #95390C;
+}

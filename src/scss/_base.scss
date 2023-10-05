@@ -1,0 +1,103 @@
+$black: #08020d;
+$gray: #e0e0e0;
+$dark-gray: #cacaca;
+$dark: #3c3d3d;
+$green: #34c176;
+$orange: #f89202;
+$purple: #5328a1;
+$red: #95390c;
+$white: #ffff;
+
+@font-face {
+  font-weight: normal;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@mixin image($name) {
+  background-image: url("../images/#{$name}");
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin not-center($name) {
+  background-image: url("../images/#{$name}");
+  background-size: cover;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: $dark-gray;
+  background-color: $black;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+
+  @media screen and (width >= 1200px) {
+    font-size: 60px;
+    line-height: 90px;
+  }
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+
+  @media screen and (width >= 1200px) {
+    font-size: 38px;
+    line-height: 57px;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0;
+  line-height: 24px;
+  font-weight: 400;
+
+  @media screen and (width >= 1200px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+
+  @media screen and (width >= 1200px) {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+}
+
+.m-0 {
+  margin: 0;
+}

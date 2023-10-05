@@ -1,0 +1,42 @@
+@use 'base';
+
+.page-similar {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (width >= 1200px){
+    width: 1200px;
+  }
+}
+
+.similar {
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, max-content));
+  grid-template-columns: repeat(2, 137px);
+  padding-top: 50px;
+  column-gap: 50px;
+  row-gap: 25px;
+
+  @media screen and (width >= 1200px) {
+    grid-template-rows: repeat(2, minmax(0, max-content));
+    grid-template-columns: repeat(4, 250px);
+  }
+}
+
+.similar-item {
+  img {
+    width: 137px;
+    height: 137px;
+
+    @media screen and (width >= 1200px) {
+      width: 250px;
+      height: 250px;
+    }
+  }
+}
+
+.similar-info {
+  text-align: center;
+  margin-top: 10px;
+}

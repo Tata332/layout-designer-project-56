@@ -1,0 +1,16 @@
+@use 'base';
+
+.color-w {
+  color: base.$white;
+}
+
+.color-or {
+  color: base.$orange;
+  text-transform: uppercase;
+}
+
+.p {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 400;
+}

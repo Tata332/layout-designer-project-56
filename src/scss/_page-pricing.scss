@@ -1,0 +1,103 @@
+@use 'base';
+
+.page-pricing {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  @media screen and (width >= 1200px) {
+    width: 1200px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  column-gap: 47px;
+  row-gap: 50px;
+
+  @media screen and (width >= 1200px) {
+    flex-direction: row;
+  }
+}
+
+.pricing-item {
+  flex: 1 1 0px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+}
+
+.pricing-value  {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 32px;
+  line-height: 48px;
+  color: base.$white;
+  column-gap: 16px;
+}
+
+.subscription {
+  margin-top: 16px;
+  text-align: center;
+
+  @media screen and (width >= 1200px) {
+    margin-top: 24px;
+  }
+
+}
+
+.btn {
+  width: 100%;
+  height: 66px;
+  padding: 21px 30px;
+  font-size: 16px;
+  margin-top: 42px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #FFF;
+
+  @media screen and (width >= 1200px) {
+    margin-top: 45px;
+  }
+}
+
+.number {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.bg-free {
+  @include base.not-center("subscribe_1.png")
+}
+
+.bg-standard {
+  @include base.not-center("subscribe_2.png")
+}
+
+
+.bg-premium {
+  @include base.not-center("subscribe_3.png")
+}
+
+.pricing-footer {
+  font-size: 12.8px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 24px;
+  text-align: center;
+}

@@ -1,0 +1,67 @@
+@use 'base';
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer {
+  display: grid;
+  padding: 63px 20px 52px;
+  grid-template-rows: repeat(5, max-content);
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+  }
+
+  @media screen and (width >= 1200px) {
+    padding: 60px 120px 45px;
+    column-gap: 30px;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, max-content);
+  }
+}
+
+.google {
+  @include base.image("Google+.png");
+
+  width: 26px;
+  height: 17px;
+}
+
+.twitter {
+  @include base.image("Twitter.png");
+
+  width: 22px;
+  height: 19px;
+}
+
+.messenger {
+  display: flex;
+  column-gap: 25px;
+  padding-top: 15px;
+}
+
+.line {
+  width: 100%;
+  background-color: #CACACA;
+  border: 1px solid #CACACA;
+}
+
+.low-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 50px;
+  column-gap: 16px;
+  row-gap: 16px;
+
+  @media screen and (width >= 1200px) {
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
