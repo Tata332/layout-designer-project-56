@@ -80,10 +80,6 @@ h4 {
   }
 }
 
-.m-0 {
-  margin: 0;
-}
-
 .color-w {
   color: white;
 }
@@ -97,6 +93,10 @@ h4 {
   font-size: 12.8px;
   line-height: 19.2px;
   font-weight: 400;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 header {
@@ -539,6 +539,20 @@ input::placeholder {
   grid-template-columns: 1fr;
   row-gap: 30px;
 }
+.footer .google {
+  background-image: url("../images/Google+.png");
+  background-position: center;
+  background-size: cover;
+  width: 26px;
+  height: 17px;
+}
+.footer .twitter {
+  background-image: url("../images/Twitter.png");
+  background-position: center;
+  background-size: cover;
+  width: 22px;
+  height: 19px;
+}
 .footer h2 {
   font-size: 18px;
   line-height: 27px;
@@ -552,22 +566,6 @@ input::placeholder {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, max-content);
   }
-}
-
-.google {
-  background-image: url("../images/Google+.png");
-  background-position: center;
-  background-size: cover;
-  width: 26px;
-  height: 17px;
-}
-
-.twitter {
-  background-image: url("../images/Twitter.png");
-  background-position: center;
-  background-size: cover;
-  width: 22px;
-  height: 19px;
 }
 
 .messenger {

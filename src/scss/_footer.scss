@@ -11,6 +11,20 @@
   grid-template-columns: 1fr;
   row-gap: 30px;
 
+  .google {
+    @include base.image("Google+.png");
+
+    width: 26px;
+    height: 17px;
+  }
+
+  .twitter {
+    @include base.image("Twitter.png");
+
+    width: 22px;
+    height: 19px;
+  }
+
   h2 {
     font-size: 18px;
     line-height: 27px;
@@ -24,20 +38,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, max-content);
   }
-}
-
-.google {
-  @include base.image("Google+.png");
-
-  width: 26px;
-  height: 17px;
-}
-
-.twitter {
-  @include base.image("Twitter.png");
-
-  width: 22px;
-  height: 19px;
 }
 
 .messenger {
